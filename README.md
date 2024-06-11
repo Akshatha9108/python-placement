@@ -28,3 +28,4 @@
   - Looping through tuples
   - Sorting tuples
 - Discussed set properties, methods, and problems
+- Discussed Dictionary properties,methods
