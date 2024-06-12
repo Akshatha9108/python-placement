@@ -34,3 +34,5 @@
   - Using functions like uppercase, lowercase, capitalize, replace
 - String problems:
   - Reversed string program
+-recurrsion programs
+-oops concepts
