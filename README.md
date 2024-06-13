@@ -36,4 +36,12 @@
   - Reversed string program
 - Recurrsion programs
 ### Day 6
+- Discussed Time Complexity Concepts
+  - Optimized approaches for recursive programs
+- Solved Search Algorithm Programs
+  - Linear Search
+  - Binary Search (both iterative and recursive methods)
+- Solved Sort Algorithm Programs
+  - Bubble Sort
+- Discussed Object-oriented program
 
