@@ -11,31 +11,31 @@ class ShoppingCart:
         print(f"added {quantity}of {item_name}to the cart.")
 
 
-def remove_item(self,item_name,quantity=1):
-    #incase you try to remove more quantity that already present
-    if item_name in self.items:
-        if self.items[item_name]['quantity']<=quantity:
-            del self.items[item_name]
-            print(f"removed all {item_name}from the cart.")
-        #decrement the qty after removal
+    def remove_item(self,item_name,quantity=1):
+        #incase you try to remove more quantity that already present
+        if item_name in self.items:
+            if self.items[item_name]['quantity']<=quantity:
+                del self.items[item_name]
+                print(f"removed all {item_name}from the cart.")
+            #decrement the qty after removal
+            else:
+                self.items[item_name]['quantity']-=quantity
+                print(f"Removed {item_name} from the cart.")
         else:
-            self.items[item_name]['quantity']-=quantity
-            print(f"Removed {item_name} from the cart.")
-    else:
-        print(f'{item_name}not found in the cart')
-def calculate_total(self):
-    total_price=0
-    for item in self.items.values():
-        total_price+=item['price']*item['quantity']
-    return total_price
-def display_cart(self):
-    if not self.items:
-      print("the cart is empty")
-    else:
-      print("shopping cart:")
-      for iname, details in self.items.items():
-        print(f"{iname} : {details['price']} X {details['qty']}")
-    print(f"total: {self.cal_total()}")
+            print(f'{item_name}not found in the cart')
+    def calculate_total(self):
+        total_price=0
+        for item in self.items.values():
+            total_price+=item['price']*item['quantity']
+        return total_price
+    def display_cart(self):
+        if not self.items:
+            print("the cart is empty")
+        else:
+            print("shopping cart:")
+            for iname, details in self.items.items():
+                print(f"{iname} : {details['price']} X {details['quantity']}")
+        print(f"total: {self.calculate_total()}")
 
 #example
 cart=ShoppingCart()
