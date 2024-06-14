@@ -44,4 +44,12 @@
 - Solved Sort Algorithm Programs
   - Bubble Sort
 - Discussed Object-oriented program
+### Day 7
+- Discussed polymorphism and inheritence programs
+- Solved Sort algorithm 
+  - Selection sort
+  - insertion sort
+  - merge sort
+  - quick sort
+  
 
