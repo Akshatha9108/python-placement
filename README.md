@@ -46,6 +46,7 @@
 - Discussed Object-oriented program
 ### Day 7
 - Discussed polymorphism and inheritence programs
+- Discuessed about Exception handaling
 - Solved Sort algorithm 
   - Selection sort
   - insertion sort
