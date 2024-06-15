@@ -52,5 +52,8 @@
   - insertion sort
   - merge sort
   - quick sort
+### Day 8
+- Discussed about Exception handling types
+- Some DBMS concepts
   
 
